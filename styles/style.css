@@ -430,3 +430,16 @@ main{
 
 
 
+@media screen and (max-width: 576px){
+    header{
+        padding: 20px
+    };
+    nav, nav .logo, nav .items, nav .items > ul , .header ,
+    .header .header-container .goat ,.header .images .img-2 ,
+    .gamer-container , .play-instantly , .banner-container ,
+    .online-game .funny-game-img .play-game,  .last-gamer .small-description ,
+    .last-gamer .special-icon  {
+        flex-direction: column;
+    }
+
+}
